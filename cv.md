@@ -21,3 +21,39 @@
 *  basic HTML
 *  basic JS
 * intermediate PhotoShop
+
+## Code examples
+
+``` javascript
+var yPositions = [];
+
+for (var i = 0; i < 40; i++) {
+    xPositions.push(i * 10);
+    yPositions.push(random(-400, 0));
+}
+
+var col = [
+    color(0, 102, 255),
+    color(33, 98, 128),
+    color(145, 143, 230),
+    color(255, 0, 0)
+];
+
+draw = function() {
+    background(195, 220, 224);
+
+    for (var i = 0; i < xPositions.length; i++) {
+        fill(col[floor(random(0, col.length))]);
+        ellipse(xPositions[i], yPositions[i], 15, 15);
+        yPositions[i] += 1;
+        if (yPositions[i] > 400) {
+            yPositions[i] -= 401;
+        }
+    }
+
+};
+```
+
+## Experience
+
+All my experience of coding you can see in my Khan Academy [profile](https://www.khanacademy.org/profile/kaid_300469085125784696777754/).
