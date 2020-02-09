@@ -57,3 +57,12 @@ draw = function() {
 ## Experience
 
 All my experience of coding you can see in my Khan Academy [profile](https://www.khanacademy.org/profile/kaid_300469085125784696777754/).
+
+## My courses:
+
+* [Khan Academy](https://www.khanacademy.org/profile/kaid_300469085125784696777754/)
+* [Codeacademy](https://www.codecademy.com/profiles/maryZhavnerovich0567709140)
+
+## About my English practice 
+
+I wave been studying English for 6 months by myself. I estimate my level as A2. 
