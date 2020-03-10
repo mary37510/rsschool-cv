@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#a1" class="menu_link">Name</a></li>
+                    <li class="menu_item"><a href="#a2" class="menu_link">Contacts</a></li>
+                    <li class="menu_item"><a href="#a3" class="menu_link">Summary</a></li>
+                    <li class="menu_item"><a href="#a4" class="menu_link">Skills</a></li>
+                    <li class="menu_item"><a href="#a5" class="menu_link">Code</a></li>
+                    <li class="menu_item"><a href="#a6" class="menu_link">Experiense</a></li>
+                    <li class="menu_item"><a href="#a7" class="menu_link">Сourses</a></li>
+                    <li class="menu_item"><a href="#a8" class="menu_link">English </a></li>
+                </ul>   
+        </div>
+        </nav>
+    </header>
+    <div class="content" id="a1">
+        <section class="name">
+            <div class="container">
+                <h2>Name</h2>
+                <p>Zhavnerovich Maria</p>
+            </div>
+        </section>
+
+        <section class="contact" id="a2">
+            <div class="container">
+                <h2>Contact info</h2>
+                <ul>
+                    <li>city: Minsk</li>
+                    <li>e-mail: rostova0106@gmail.com </li>
+                    <li>github:<a href="https://github.com/mary37510"> mary37510</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="summary" id="a3">
+            <div class="container">
+                <h2>Summary</h2>
+                <p>My goal is to become a good front-end developer. At the moment, for this,
+                    I have taken courses in JS, HTML and CSS at the Khan academy and HTML/CSS at the Codeacademy.
+                    So now I'm reading Eloquent Javascript and learnjavascript.</p>
+            </div>
+        </section>
+
+        <section class="skills" id="a4">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>basic CSS</li>
+                    <li>basic HTML</li>
+                    <li>basic JS</li>
+                    <li>intermediate PhotoShop</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="examples" id="a5">
+            <div class="container">
+                <h2>Code examples</h2>
+                <pre class="prettyprint">
+                    var yPositions = [];
+            
+                    for (var i = 0; i < 40; i++) {
+                        xPositions.push(i * 10);
+                        yPositions.push(random(-400, 0));
+                    }
+                    
+                    var col = [
+                        color(0, 102, 255),
+                        color(33, 98, 128),
+                        color(145, 143, 230),
+                        color(255, 0, 0)
+                    ];
+                    
+                    draw = function() {
+                        background(195, 220, 224);
+                    
+                        for (var i = 0; i < xPositions.length; i++) {
+                            fill(col[floor(random(0, col.length))]);
+                            ellipse(xPositions[i], yPositions[i], 15, 15);
+                            yPositions[i] += 1;
+                            if (yPositions[i] > 400) {
+                                yPositions[i] -= 401;
+                            }
+                        }
+                    
+                    };
+                </pre>
+            </div>
+        </section>
+
+        <section class="experience" id="a6">
+            <div class="container">
+                <h2>Experience</h2>
+                <p>All my experience of coding you can see in my Khan Academy <a href="https://www.khanacademy.org/profile/kaid_300469085125784696777754/">profile</a>.</p>
+            </div>
+        </section>
+
+        <section class="courses" id="a7">
+            <div class="container">
+                <h2>My courses:</h2>
+                <ul>
+                    <li><a href="https://www.khanacademy.org/profile/kaid_300469085125784696777754/">Khan Academy</a></li>
+                    <li><a href="https://www.codecademy.com/profiles/maryZhavnerovich0567709140">Codeacademy</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="english" id="a8">
+            <div class="container">
+                <h2>About my English practice</h2>
+                <p> I was engaged in self-study of the English language and have A2 level.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Comfortaa', cursive;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px;
+}
+
+.content {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(185, 185, 185);
+}
+
+h2 {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(189, 185, 185);
+}
+
+header{
+    height: 300px;
+    background: url('photo.jpg') center center/cover no-repeat;
+    padding: 39px 0px 62px 0px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
